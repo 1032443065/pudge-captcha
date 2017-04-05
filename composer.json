@@ -1,14 +1,16 @@
 {
-    "name": "rozbo/pudge-captcha",
-    "description": "captcha package for pudge",
+    "name": "rozbo/think-captcha",
+    "description": "captcha package for thinkphp5",
     "authors": [
         {
-            "name": "rozbo",
-            "email": "75200036@qq.com"
+            "name": "yunwuxin",
+            "email": "448901948@qq.com"
         }
     ],
     "license": "Apache-2.0",
-    "require": {},
+    "require": {
+        "rozbo/pudge": ">=5.1.1"
+    },
     "autoload": {
         "psr-4": {
             "think\\captcha\\": "src/"
