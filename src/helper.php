@@ -9,15 +9,6 @@
 // | Author: yunwuxin <448901948@qq.com>
 // +----------------------------------------------------------------------
 
-\think\facade\Route::get('captcha/[:id]', "\\think\\captcha\\CaptchaController@index");
-
-\think\Validate::extend('captcha', function ($value, $id = '') {
-    return captcha_check($value, $id);
-});
-
-\think\Validate::setTypeMsg('captcha', ':attribute错误!');
-
-
 /**
  * @param string $id
  * @param array  $config
