@@ -9,7 +9,7 @@
     ],
     "license": "Apache-2.0",
     "require": {
-        "rozbo/pudge": ">=5.1.1"
+        "1032443065/pudge": ">=5.1.1"
     },
     "autoload": {
         "psr-4": {
